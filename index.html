@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Mangement App</title>
+    <link rel="stylesheet" href="todoapp.css">
+</head>
+
+<body>
+    <marquee behavior="smooth" direction="to right" style="background-color: black; color: white; padding:0.2rem 0rem;">This application use your local storage, for store your data. This application basically use on desktop.</marquee>
+    <div class="container">
+        <div class="text-box">
+            <h1>Task Mangement App</h1>
+            <div class="inp-box">
+                <input type="text" name="" id="task-text" maxlength="50" placeholder="Write your task(max 50 charecter)"> 
+                <br/><br/>
+                <button id="task-btn">Add Task</button>
+            </div>
+            <div class="main-sec">
+                <div id="incom-sec">
+                    <h2>Incomplete Task :- </h2>
+                    <div id="incom-task">
+                        <!-- <li><input type="checkbox" name="" id=""><p>write poem</p></li> -->
+                    </div>
+                </div>
+                <div id="comp-sec">
+                    <h2>Complete Task :-</h2>
+                    <div id="com-task">
+                        <!-- <li><input type="button" name="" id=""></li> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="todoapp.js"></script>
+</body>
+
+</html>
